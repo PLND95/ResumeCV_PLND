@@ -80,14 +80,16 @@ h2 {
 }
 
 .exp {
-    text-align: right;
+    text-align: center;
 }
 .exp h4 {
     margin: 20px 0 10px;
 
 }
 .exp .des {
+    margin-top: 10px;
     line-height: 30px;
+    text-align:center;
 }
 .exp .time span {
     font-weight: 500;
@@ -104,11 +106,15 @@ h2 {
 
 .education {
     padding-left: 30px;
-    text-align: justify;
+    text-align: center;
     border-left: 1px solid #000;
 }
 
 .education .des {
     font-weight: 500;
     padding: 10px 0;
+}
+.education .item .des-act  {
+    margin-top: 20px;
+    line-height: 30px;
 }
